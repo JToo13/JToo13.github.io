@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LET ME INTRODUCE MYSELF</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+
+    <!-- Update these with your own fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="img/devjane.png" alt="" />
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">My Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About me</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">My Projects</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Hi, I am <strong>Joy Too</strong>
+      </h1>
+      <center>
+      <p class="section__subtitle section__subtitle--intro">
+        mechatronics engineer
+      </p>
+      </center>
+       <img
+        src="img/joy-01.jpg"
+        alt="a picture of Joy Too smiling"
+        class="intro__img"
+      />
+    </section>
+
+    <!-- My services -->
+    <section class="my-services" id="services">
+      <h2 class="section__title section__title--services">My skills</h2>
+      <div class="services">
+        <div class="service">
+          <!-- update this-->
+          <h3>Design + Development</h3>
+          <p>
+            
+          </p>
+        </div>
+        <!-- / service -->
+
+        <div class="service">
+          <h3>Programming</h3>
+          <p>
+           
+          </p>
+        </div>
+        <!-- / service -->
+
+        <div class="service">
+          <h3>Design and Fabrication</h3>
+          <p>
+            
+          </p>
+        </div>
+        <!-- / service -->
+      </div>
+      <!-- / services -->
+
+      <a href="#work" class="btn">My Work</a>
+    </section>
+
+    <!-- About me -->
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">About me</h2>
+      <p class="section__subtitle section__subtitle--about">
+        mechatronic engineer based in kenya
+      </p>
+      <!-- update this-->
+      <div class="about-me__body">
+        <p>
+          I am Joy Too a Mechatronic Engineering student at J.K.U.A.T 
+        </p>
+        
+      </div>
+
+      <img
+        src="img/joy-01.jpg"
+        alt="Joy working on a project"
+        class="about-me__img"
+      />
+    </section>
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+      <h2 class="section__title section__title--work">My projects</h2>
+      <p class="section__subtitle section__subtitle--work">
+        A selection of my range of work
+      </p>
+      <!-- update this-->
+      <div class="portfolio">
+        <!-- Portfolio item 01 -->
+        <div class="service">
+          <a href="#" class="portfolio__item">
+            <img src="img/smartfarm.jpg" alt="" class="portfolio__img" style="width:100%; height:300px;"/>
+          </a>
+            <h3>Smartfarm project</h3>
+            <p>
+              This system aims at regulating the soil moisture levels in farms. I designed a program that will automatically detect a drop or surge in soil moisture level and activate a pump to irrigate the farm otherwise the pump will be turned off respectively.
+
+            </p>
+          </div>
+        
+
+        <!-- Portfolio item 02 -->
+        <div class="service">
+          <a href="#" class="portfolio__item">
+            <img src="img/automaticfire.jpg" alt="" class="portfolio__img" style="width:100%; height:300px;" />
+          </a>
+            <h3>Automated fire Extinguisher</h3>
+            <p>
+              The project purposely is for house safety where the main point is to avoid fire accidents which have a great potential to cause damage if not intervened on time.
+              The system detects and extinguishes the fire just on time before damage is caused.
+
+            </p>
+          </div>
+
+        <!-- Portfolio item 03 -->
+        <div class="service">
+          <a href="#" class="portfolio__item">
+            <img src="img/smarthome.jpg" alt="" class="portfolio__img" style="width:100%; height:300px;" />
+          </a>
+            <h3>Home Automation</h3>
+            <p>
+             This project is focused on being able to light and switch off lights in the house as well as regulating the temperature around your home automatically.
+            </p>
+          </div>
+
+        <!-- Portfolio item 04 -->
+        <div class="service">
+          <a href="#" class="portfolio__item">
+            <img src="img/SmartattendanceXampp.jpeg" alt="" class="portfolio__img" style="width:100%; height:300px;"/>
+          </a>
+            <h3>RFID based smart attendance system</h3>
+            <p>
+              Radio Frequency Identification, commonly referred to in short terms as RFID, is the wireless non-contact use of radio frequency to transfer data
+            </p>
+          </div>
+
+        <!-- Portfolio item 05 -->
+        <div class="service">
+          <a href="#" class="portfolio__item">
+            <img src="img/MQTT.jpeg" alt="" class="portfolio__img" style="width:100%; height:300px;" />
+          </a>
+            <h3>How to MQTT series</h3>
+            <p>
+              In the project we used the HIVEMQ broker and installed an MQTT client from the playstore which we used to set up the software side of the project; by subscribing a topic,then publishing the topic and finally writing a message to accompany the published topic. In our case, our message was either LEDON(to light the LED) or LEDOFF(to switch off the LED).
+            </p>
+          </div>
+
+        <!-- Portfolio item 06 -->
+        <div class="service">
+          <a href="#" class="portfolio__item">
+            <img src="img/AP.jpeg" alt="" class="portfolio__img" style="width:100%; height:300px;" />
+          </a>
+            <h3>Access Point and Station Mode</h3>
+            <p>
+              In this project we configured the ESP8266 to operate in two different modes. These modes determine what state the nodemcu will be in during project implementation.
+              In Access point mode configuration, the ESP8266 sets up its own Wi-Fi network and acts as a hub(router) for one or more stations while in Station mode the nodemcu connects to an already set up wireless network.
+
+            </p>
+          </div>
+
+        <!-- Portfolio item 07 -->
+        <div class="service">
+          <a href="#" class="portfolio__item">
+            <img src="img/MQTT series.jpeg" alt="" class="portfolio__img" style="width:100%; height:300px;" />
+          </a>
+            <h3>RFID Smart door lock system</h3>
+            <p>
+              In this project we made use nodemcu and the blynk app.The blynk application allowed us to remotely monitor the door lock from anywhere through my smartphone. There was also an LED which would light up when the user has been granted access and stays off if the user has been restricted.
+            </p>
+          </div>
+
+        <!-- Portfolio item 08 -->
+        <div class="service">
+          <a href="#" class="portfolio__item">
+            <img src="img/security.jpg" alt="smart security image" class="portfolio__img" style="width:100%; height:300px;"/>
+          </a>
+            <h3>Smart Security system</h3>
+            <p>
+              A smart security system will monitor and access control and alarm systems.
+              In this project whenever motion was detected, the message was sent to our telegram bot hence one can be able to monitor their homes.
+            </p>
+          </div>
+
+       
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <!-- replace with your own email address -->
+      <a href="toojoey57@gmail.com" class="footer__link">Contact me</a>
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://linkedin.com">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="http://github.com">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+    <script src="js/index.js"></script>
+  </body>
+</html>
